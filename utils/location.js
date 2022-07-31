@@ -1,4 +1,4 @@
-const goole_key= "AIzaSyBomK5ZoqAXz6kF7tc3_qzFcp86P3QViLQ";
+const goole_key= "";
 
 export const getMapPreview = (lat,lng)=>{
     const imageURl = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=13&size=400x200&maptype=roadmap
